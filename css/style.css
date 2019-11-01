@@ -40,6 +40,7 @@ h4{
 #mobileNav{
     display: none;
     width: 100%;
+    background: var(--background);
 }
 
 #mobileNav ul{
