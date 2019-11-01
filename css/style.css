@@ -1,0 +1,167 @@
+/*imports*/
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,800&display=swap');
+/*Colours*/
+:root{
+    --primary:#faed26;
+    --secondary:#fcf69c;
+    --background:#f2f2f2;
+    --highlight:#1f2833;
+}
+
+body{
+    background: var(--background);
+    width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.l3{
+    padding-top: 100px !important;
+    margin-top: 5px;
+    border-left: 1px solid #e0e0e0;
+}
+
+.l6{
+    margin-top: 5px;
+    padding: 0px !important;
+    background: #e6e6e6;
+}
+
+h4{
+    margin-top: 50px;
+    border-bottom: 2px solid var(--background);
+    font-size: 300;
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+/*nav bar styles*/
+#mobileNav{
+    display: none;
+    width: 100%;
+}
+
+#mobileNav ul{
+    width: 100%;
+    background: blue;
+}
+
+#mobileNav li{
+    width: calc(100%/5);
+    text-align: center;
+}
+
+.topNav span{
+    display: none;
+}
+
+.topNav{
+    background: var(--primary) !important;
+}
+
+.nav-wrapper a{
+   text-transform: uppercase;
+    color: var(--highlight) !important;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+.navItem{
+    height: 80px;
+    width: 100%;
+    vertical-align: middle;
+    padding-left: 10px;
+    transition: 0.4s ease;
+}
+
+.navItem p{
+    margin:0px 0px 0px 10px;
+    font-size: 26px;
+}
+
+
+#line{
+    height: 1px;
+    border-bottom: 2px solid #bdbdbd;
+}
+
+.navItem:hover{
+    background-color: var(--secondary);
+}
+
+.btnHolder{
+    padding: 10px;
+    background: var(--highlight);
+    color: white;
+}
+
+.btnHolder p{ 
+    font-size: 20px !important;
+}
+
+.btnHolder:hover{
+    background-color: #424242 !important;
+}
+
+/*content*/
+
+.feed{
+    height: 100vh;
+    padding: 10px;
+    overflow: scroll;
+    background: #e6e6e6;
+}
+
+#about{
+    padding: 15px;
+    background: #e6e6e6;
+}
+
+#ribbon{
+    background: var(--highlight);
+    padding-left: 10px;
+    color: var(--primary);
+    height: 40px;
+}
+
+h5{
+    margin: 0;
+    padding: 5px 0px 0px 0px;
+    height: 100%
+}
+
+/*CSS FOR SMALL SCREENS*/
+@media only screen and (max-width: 800px) {
+    .l3{
+        display: none;
+    }
+    
+    #mobileNav{
+        display: block;
+        background: var(--secondary)
+    }
+    
+    .topNav span{
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

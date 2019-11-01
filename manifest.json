@@ -1,0 +1,53 @@
+{
+   "name": "TETEZA",
+    "short_name": "Teteza",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color":"#f2f2f2",
+    "theme_color":"#fcf69c",
+    "orientation": "portrait-primary",
+    "icons":[
+        {
+           "src":"/img/icon-72X72.png",
+            "type":"image/png",
+            "sizes":"72x72"
+        },
+        {
+           "src":"/img/icon-98X98.png",
+            "type":"image/png",
+            "sizes":"98x98"
+        },
+        {
+           "src":"/img/icon-128X128.png",
+            "type":"image/png",
+            "sizes":"128x128"
+        },
+        {
+           "src":"/img/icon-144X144.png",
+            "type":"image/png",
+            "sizes":"144x144"
+        },
+        {
+           "src":"/img/icon-152X152.png",
+            "type":"image/png",
+            "sizes":"152x152"
+        },
+        {
+           "src":"/img/icon-192X192.png",
+            "type":"image/png",
+            "sizes":"192x192"
+        },
+        {
+           "src":"/img/icon-384X384.png",
+            "type":"image/png",
+            "sizes":"384x384"
+        },
+        {
+           "src":"/img/icon-512X512.png",
+            "type":"image/png",
+            "sizes":"512x512"
+        }
+    ]
+    
+} 
+}
