@@ -15,7 +15,7 @@ body{
 }
 
 .l3{
-    padding-top: 100px !important;
+    padding-top: 40px !important;
     margin-top: 5px;
     border-left: 1px solid #e0e0e0;
 }
@@ -130,6 +130,113 @@ h5{
     margin: 0;
     padding: 5px 0px 0px 0px;
     height: 100%
+}
+
+/*Styling for Editor*/
+
+#headingContent{
+    border: 1px solid var(--background);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#postBody{
+    font-size: 20px;
+    padding: 15px;
+}
+
+#post{
+    padding: 10px;
+    height: 300px;
+    border: 1px solid var(--background);
+    
+}
+
+.editor ul{
+    margin: 0px;
+    padding-left: 10px;
+}
+
+.editor li{
+    width: calc(100%/7.5);
+    margin-top: 5px;
+    color: var(--background);
+    background: #4d4d4d; 
+    transition: 0.3s ease;
+}
+
+.editor li:hover{
+    background: #595959;
+}
+
+.buttons{
+    height: 40px;
+    padding-top: 10px;
+    margin: 0px;
+}
+
+.buttons li{
+    color: var(--background);
+    background: #4d4d4d; 
+    transition: 0.3s ease;
+    margin: 3px;
+}
+
+.buttons li:hover{
+    background: #595959;
+}
+
+/*Card Style*/
+
+.card-action{
+    width: 100%;
+    padding: 10px !important;
+    vertical-align: middle;
+    background: var(--background) !important;
+}
+
+.card-action a{
+    width: calc(100%/6);
+    background: var(--background);
+    padding: 0px !important;
+    transition: 0.3s ease;
+}
+
+.card-action a:first-child{
+    margin-left: 25px !important;
+}
+
+.card-action a:hover{
+    background: white;
+}
+
+.card-action a:focus{
+     background: var(--background);
+}
+
+.card-action i{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.card-action i, .card-action span{
+    color: var(--highlight);
+}
+
+.card-action span{
+    margin-left: 5px;
+}
+
+.userInfo{
+    padding: 5px;
+    background: #f0f0f0;
+    color: #595959;
+    font-size: 12px;
+}
+
+.userInfo i, .userInfo p{
+    margin: 0 5px;;
 }
 
 /*CSS FOR SMALL SCREENS*/
