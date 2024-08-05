@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/fatuma-ingbr/TETEZA#readme",
   "devDependencies": {
-    "@editorjs/editorjs": "^2.15.1"
+    "@editorjs/editorjs": "^2.26.0"
   }
 }
